@@ -16,10 +16,10 @@ describe('in-memory db', () => {
 
     it('get all', () => {
         assert.equal(objArray, apple.getAll());
-    })
+    });
 
-    it('remove',() => {
+    it('remove', () => {
         apple.remove();
         assert.equal(apple.remove()[1], null);
-    })
+    });
 });
